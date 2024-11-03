@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const {
     Client,
     Events,
@@ -16,14 +18,15 @@ const {
 
 let config = {
     admin: {
-        id: "62882001492789@.whatsapp.net", // Ganti nomor yg mau di jadikan admin
-        number: "62882001492789" // Ganti nomor yg mau di jadikan admin
+        id: process.env.ADMIN_ID,
+        number: process.env.ADMIN_NUMBER
     },
     bot: {}
 };
 
 const usePairingCode = true;
-let phoneNumber = "08213456789"; // Ganti nomor yg mau di jadikan bot
+const phoneNumber = process.env.PHONE_NUMBER;
+const defaultServer = process.env.DEFAULT_SERVER;
 
 const bot = new Client({
     prefix: "!",
@@ -41,8 +44,6 @@ bot.ev.once(Events.ClientReady, async (m) => {
 });
 
 bot.ev.on(Events.MessagesUpsert, async (m, ctx) => {});
-
-const defaultServer = "Contoh.com:6969"; // Ganti dengan domain dan port api server
 
 bot.command("create", async (ctx) => {
     if (ctx.sender.id !== config.admin.id) {
