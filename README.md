@@ -13,8 +13,8 @@ FighterTunnel Bot adalah bot WhatsApp yang memungkinkan pengguna untuk membuat a
 1. Clone repository ini:
 
    ```bash
-   git clone https://github.com/username/fightertunnel-bot.git
-   cd fightertunnel-bot
+   git clone https://github.com/AutoFTbot/FighterTunnel-Bot
+   cd FighterTunnel-Bot
    ```
 
 2. Instal dependensi:
