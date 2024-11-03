@@ -54,4 +54,4 @@ node appV2.js
 
 - Pastikan Anda telah mengisi semua variabel lingkungan yang diperlukan di file `.env` sebelum menjalankan bot.
 - Gunakan `setup.sh` untuk memudahkan pengaturan awal variabel lingkungan.
-- Pastikan versi node 20 ke atas
+- Pastikan versi node 20.x^
