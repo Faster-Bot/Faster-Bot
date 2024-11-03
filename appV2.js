@@ -16,15 +16,14 @@ const {
 
 let config = {
     admin: {
-        id: "62882001492789@.whatsapp.net",
-        number: "62882001492789"
+        id: "62882001492789@.whatsapp.net", // Ganti nomor yg mau di jadikan admin
+        number: "62882001492789" // Ganti nomor yg mau di jadikan admin
     },
     bot: {}
 };
 
-// Penggunaan usePairingCode
-const usePairingCode = false; // Tetapkan true jika Anda ingin menggunakan kode penyandingan
-let phoneNumber = null; // Tambahkan nomor ponsel jika menggunakan kode pairing
+const usePairingCode = true;
+let phoneNumber = "08213456789"; // Ganti nomor yg mau di jadikan bot
 
 const bot = new Client({
     prefix: "!",
