@@ -46,7 +46,8 @@ bot.ev.once(Events.ClientReady, async (m) => {
 bot.ev.on(Events.MessagesUpsert, async (m, ctx) => {});
 
 bot.command("create", async (ctx) => {
-    if (ctx.sender.id !== config.admin.id) {
+    const senderId = ctx._sender.jid;
+    if (senderId !== config.admin.id) {
         await ctx.reply("Maaf, hanya admin yang dapat menggunakan perintah ini.");
         return;
     }
