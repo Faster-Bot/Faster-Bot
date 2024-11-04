@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "@mengkodingan/ckptw": "^4.3.6",
-    "@fightertunnel/createft": "0.5.0",
+    "@fightertunnel/createft": "0.6.0",
     "axios": "^1.7.7"
   },
   "scripts": {
