@@ -47,11 +47,17 @@ FighterTunnel Bot adalah bot WhatsApp yang memungkinkan pengguna untuk membuat a
 Jalankan bot dengan perintah berikut:
 
 ```bash
+node app.js
+```
+Semua user bisa akses
+```bash
 node appV2.js
 ```
+Cuma nomor admin yg bisa akses ( button )
 ```bash
 node appV3.js
 ```
+cuma nomor admin yg bisa akses ( tanpa button )
 
 ## Catatan
 
