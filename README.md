@@ -49,9 +49,15 @@ Jalankan bot dengan perintah berikut:
 ```bash
 node appV2.js
 ```
+```bash
+node appV3.js
+```
 
 ## Catatan
 
+- Versi 1 semua user bisa akses
+- Versi 2 cuma Admin yg bisa akses dan pakai Button
+- Versi 3 Cuma Admin yg bisa akses dan No Butoon
 - Pastikan Anda telah mengisi semua variabel lingkungan yang diperlukan di file `.env` sebelum menjalankan bot.
 - Gunakan `setup.sh` untuk memudahkan pengaturan awal variabel lingkungan.
 - Pastikan versi node 20.x^
