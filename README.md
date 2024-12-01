@@ -13,8 +13,8 @@ Faster Bot adalah bot WhatsApp yang memungkinkan pengguna untuk membuat akun lay
 1. Clone repository ini:
 
    ```bash
-   git clone https://github.com/Faster-Bot/FighterTunnel-Bot
-   cd FighterTunnel-Bot
+   git clone https://github.com/Faster-Bot/Faster-Bot
+   cd Faster-Bot
    ```
 
 2. Instal dependensi:
