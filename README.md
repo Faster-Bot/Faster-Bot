@@ -1,6 +1,6 @@
-# FighterTunnel Bot
+# Faster Bot
 
-FighterTunnel Bot adalah bot WhatsApp yang memungkinkan pengguna untuk membuat akun layanan seperti SSH, VLESS, VMESS, Trojan, dan Shadowsocks melalui antarmuka interaktif.
+Faster Bot adalah bot WhatsApp yang memungkinkan pengguna untuk membuat akun layanan seperti SSH, VLESS, VMESS, Trojan, dan Shadowsocks melalui antarmuka interaktif.
 
 ## Fitur
 
@@ -13,7 +13,7 @@ FighterTunnel Bot adalah bot WhatsApp yang memungkinkan pengguna untuk membuat a
 1. Clone repository ini:
 
    ```bash
-   git clone https://github.com/AutoFTbot/FighterTunnel-Bot
+   git clone https://github.com/Faster-Bot/FighterTunnel-Bot
    cd FighterTunnel-Bot
    ```
 
