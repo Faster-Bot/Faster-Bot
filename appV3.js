@@ -13,7 +13,7 @@ const {
     createTrojanAccount,
     createVmessAccount,
     createShadowsocksAccount
-} = require('@fightertunnel/createft');
+} = require('@Faster/createft');
 
 let config = {
     admin: {
@@ -37,7 +37,7 @@ const bot = new Client({
 });
 
 bot.ev.once(Events.ClientReady, async (m) => {
-    console.log(`[fightertunnel-bot] Bot ready at ${m.user.id}`);
+    console.log(`[Faster-bot] Bot ready at ${m.user.id}`);
     config.bot.number = m.user.id.split(/[:@]/)[0];
     config.bot.id = config.bot.number + S_WHATSAPP_NET;
 });
@@ -159,7 +159,7 @@ bot.command("create", async (ctx) => {
                     await createSSHAccount(defaultServer, data, ctx);
                 }
             }
-            console.log(`[fightertunnel-bot] Interaction ended.`);
+            console.log(`[Faster-bot] Interaction ended.`);
         }
     });
 });
